@@ -4011,6 +4011,7 @@ __metadata:
     react-dom: "npm:^18"
     react-map-gl: "npm:^7.1.7"
     typescript: "npm:^5"
+    ulid: "npm:^2.3.0"
   languageName: unknown
   linkType: soft
 
@@ -5384,6 +5385,15 @@ __metadata:
   dependencies:
     typewise-core: "npm:^1.2.0"
   checksum: 10c0/0e300a963cd344f9f4216343eb1c9714e1aee12c5b928ae3ff4a19b4b1edcd82356b8bd763905bd72528718a3c863612f8259cb047934b59bdd849f305e12e80
+  languageName: node
+  linkType: hard
+
+"ulid@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "ulid@npm:2.3.0"
+  bin:
+    ulid: ./bin/cli.js
+  checksum: 10c0/070d237502781085e59cf3d8ece752ff96cd3a0990cf1c1be57273f4550597daeb72e9a7db8e5a320de31102509bb3321d280b54bfc44e98025e4628a9629773
   languageName: node
   linkType: hard
 
