@@ -21,7 +21,8 @@ export const generatePathLayer = (pathLayerObjects: PathLayerObject[]) => {
     data: pathLayerObjects,
     getPath: (d) => d.path,
     getColor: (d) => hexToRgbArray(d.color) as any,
-    getWidth: 100,
+    getWidth: 30,
     pickable: true,
+    onClick: () => alert('Clicked!'),
   })
 }

@@ -15,7 +15,7 @@ export default function DeckGLPage() {
   const initialViewState = {
     longitude: NEAR_ME.lng,
     latitude: NEAR_ME.lat,
-    zoom: 11,
+    zoom: 14,
   }
   const mainColor = colors.deepPurple.A700
   const pathLayerObject = generatePathLayerObject(mainColor, coords)
