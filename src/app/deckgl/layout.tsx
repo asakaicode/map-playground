@@ -6,7 +6,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head>
-        <title>Top</title>
+        <title>Deck.gl</title>
       </head>
       <body>{children}</body>
     </html>
